@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+
+    background: #F4D04E;
+    min-height: 100vh;
+    display: flex;
+  
+  
+}
+html {
+    font-size: 62.5%
+}
+
+
+
+
+@font-face {
+    font-family: "Figtree-Bold";
+    src: local("Figtree-Bold");
+    src: url(fonts/Figtree-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: "Figtree-SemiBold";
+    src: local("Figtree-SemiBold");
+    src: url(fonts/Figtree-SemiBold.ttf);
+}
+
+
+.main-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.box_card{
+    width: 100%;
+    max-width: 38.4rem;
+    background: #FFFFFF;
+    border: 1px solid #111111;
+    box-shadow: 8px 8px 0px #000000;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 2.4rem;
+}
+
+
+
+.img-box{
+    margin-bottom: 2.4rem;
+    width: 100%; 
+
+}
+.box_yellow-rectangle{
+    width: 8.2rem;
+    height: 2.9rem;
+    background: #F4D04E;
+    border-radius: 4px;
+    padding: .4rem 1.2rem ;
+    margin-bottom: 1.6rem;
+}
+.box_content{
+    margin-bottom: 2.4rem;
+}
+
+
+
+.box_yellow-rectangle p{
+    font-family: 'Figtree-Bold';
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: #111111;
+  
+}
+
+.date{
+    font-family: 'Figtree-SemiBold';
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: #111111;
+    margin-bottom: 1.2rem; 
+}
+
+h1{
+    font-family: 'Figtree-Bold';
+    font-size: 2.4rem;
+    line-height: 150%;
+    color: #111111;
+    margin-bottom: 1.2rem;
+}
+
+.description{
+    font-family: 'Figtree-SemiBold';
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: #6B6B6B;
+}
+.signature{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.signature img{
+    margin-right: 0.55rem;
+
+}
+
+.box_name{
+    padding: 0.55rem;
+}
+
+.name{
+    font-family: 'Figtree-Bold';
+    font-size: 1.4rem;
+    line-height: 150%;
+
+}
+
+
+
